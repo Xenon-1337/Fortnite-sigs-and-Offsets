@@ -1,6 +1,6 @@
  /*Dm Xenon#1337 for missing offsets/sigs */
 
-  uintptr_t OwningGameInstance = 0x1a8;
+  uintptr_t OwningGameInstance = 0x1A8;
 	uintptr_t LocalPlayers = 0x38;
 	uintptr_t PlayerController = 0x30;
 	uintptr_t PlayerCameraManager = 0x328;
@@ -9,12 +9,11 @@
 	uintptr_t ItemDefinition = 0x18;
 	uintptr_t DisplayName = 0x90;
 	uintptr_t Tier = 0x74;
-	uintptr_t CurrentVehicle = 0x2158;
 	uintptr_t WeaponData = 0x3d8;
 	uintptr_t LastFireTime = 0xa70;
 	uintptr_t LastFireTimeVerified = 0xa74;
 	uintptr_t LastFireAbilityTime = 0xd60;
-	uintptr_t CurrentWeapon = 0x4f0;
+	uintptr_t CurrentWeapon = 0x790;
 	uintptr_t bADSWhileNotOnGround = 0x4805;
 
 	uintptr_t Levels = 0x160;
@@ -28,7 +27,8 @@
 	uintptr_t RelativeRotation = 0x140;
 	uintptr_t PlayerState = 0x290;
 	uintptr_t Mesh = 0x2f0;
-	uintptr_t TeamIndex = 0x1068; //updated
+	uintptr_t TeamIndex = 0x1068;
+/* ALL OF THE OFFSETS ABOVE *SHOULD* BE CORRECT AND UPDATED */
 
  /*Dm Xenon#1337 for missing offsets/sigs THE OFFSETS ABOVE THESE LINES HAVENMT BEEN UPDATED AS OF 6/9/22 BUT WILL BE SOON*/
 
