@@ -28,17 +28,17 @@
 	uintptr_t RelativeRotation = 0x140;
 	uintptr_t PlayerState = 0x290;
 	uintptr_t Mesh = 0x2f0;
-	uintptr_t TeamIndex = 0x1010;
+	uintptr_t TeamIndex = 0x1068; //updated
 
  /*Dm Xenon#1337 for missing offsets/sigs THE OFFSETS ABOVE THESE LINES HAVENMT BEEN UPDATED AS OF 6/9/22 BUT WILL BE SOON*/
 
 class vtables{
-	GetPlayerViewPoint = 0x7A8
-	SetControlRotation = 0x718
-	GetCameraLocation = 0x7B8           
-	GetCameraRotation = 0x7B0         
-	Process Event = 0x4D                
-	GetFOVAngle = 0x768                             
-	Post Render = 0x6E
+	GetPlayerViewPoint = 0x7A8 //updated
+	SetControlRotation = 0x718 //updated
+	GetCameraLocation = 0x7B8 //updated           
+	GetCameraRotation = 0x7B0 //updated         
+	Process Event = 0x4D //updated                
+	GetFOVAngle = 0x768 //updated                             
+	Post Render = 0x6E //updated
 	}
  /*Dm Xenon#1337 for missing vtables you might need */
