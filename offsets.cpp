@@ -30,7 +30,7 @@
 	uintptr_t TeamIndex = 0x1068;
 /* ALL OF THE OFFSETS ABOVE *SHOULD* BE CORRECT AND UPDATED */
 
- /*Dm Xenon#1337 for missing offsets/sigs THE OFFSETS ABOVE THESE LINES HAVENMT BEEN UPDATED AS OF 6/9/22 BUT WILL BE SOON*/
+ /*Dm Xenon#1337 for missing offsets/sigs THE OFFSETS ABOVE THESE LINES HAVENMT BEEN UPDATED AS OF 6/13/22*/
 
 class vtables{
 	GetPlayerViewPoint = 0x7A8 //updated
