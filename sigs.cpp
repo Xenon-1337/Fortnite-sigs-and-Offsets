@@ -6,3 +6,5 @@ GetNameByIndex - 48 89 5C 24 ? 48 89 74 24 ? 57 48 81 EC ? ? ? ? 48 8B 05 ? ? ? 
 BoneMatrix - E8 ? ? ? ? 0F 10 40 68 // didnt change (i think) - 6/8/22
 Gobjects - 48 8B 05 ? ? ? ? 48 8B 0C C8 48 8B 04 D1 // didnt change - 6/8/22
 // i stayed up all night in ida js to see there were already sigs updated what the fuck. Well it didnt have bonematrix sigs so enjoy. Vtables and offsets soon
+// REQUESTED SIGS PAST THIS POINT
+FindObject - E8 ? ? ? ? 40 80 EF 03 //unsure but should work
