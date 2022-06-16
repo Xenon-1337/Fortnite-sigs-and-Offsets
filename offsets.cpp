@@ -1,5 +1,6 @@
  /*Dm Xenon#1337 for missing offsets/sigs */
 
+	#DEFINE UWORLD 0xCC68A48 // not sure if this is right someone sent it to me too lazy to check
   uintptr_t OwningGameInstance = 0x1A8;
 	uintptr_t LocalPlayers = 0x38;
 	uintptr_t PlayerController = 0x30;
